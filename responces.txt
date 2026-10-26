@@ -1,0 +1,7 @@
+http://127.0.0.1:8000/api/notes 200 OK
+
+http://127.0.0.1:8000/api/notes?id_user=1 200 OK
+
+http://127.0.0.1:8000/api/notes?id_user=abc 400 Bad Request
+
+http://127.0.0.1:8000/api/notes?error=true 500
